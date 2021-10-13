@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import BaseTitle from '../common/BaseTitle';
 import BaseText from '../common/BaseText';
-import { TEXTS } from '../../pages/constants/strings';
+import { TEXTS } from '../../constants/strings';
 import PillsContainer from '../PillsContainer';
 import {
   DIG_BANG_PILLS,

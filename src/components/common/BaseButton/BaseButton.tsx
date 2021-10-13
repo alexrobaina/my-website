@@ -1,6 +1,5 @@
-import { FC, ReactChild, useCallback } from 'react';
+import { FC, ReactChild } from 'react';
 import c from 'classnames';
-import Link from 'next/link';
 import styles from './BaseButton.module.scss';
 
 interface Props {
@@ -57,6 +56,7 @@ const BaseButton: FC<Props> = ({
         href={linkURL}
         data-testid={`button-link-${testId}`}
         target="_blank"
+        rel="noreferrer"
         className={c(
           styles.isButtonLink,
           small && styles.small,

@@ -17,6 +17,8 @@
   "rules": {
     "requireForBlockBody": "off",
     "space-before-function-paren": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     "react/prefer-stateless-function": "warn",
     "import/prefer-default-export": "off",
     "no-param-reassign": ["error", { "props": false }],

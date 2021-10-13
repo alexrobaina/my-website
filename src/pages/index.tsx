@@ -10,7 +10,7 @@ import Projects from '../components/Projects';
 import Footer from '../components/common/Footer';
 import JobExperience from '../components/JobExperience';
 import BaseTitle from '../components/common/BaseTitle';
-import { TEXTS } from './constants/strings';
+import { TEXTS } from '../constants/strings';
 import { VARIANTS_OPACITY } from '../constants/animation';
 import styles from '../styles/index.module.scss';
 

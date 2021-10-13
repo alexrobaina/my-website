@@ -1,16 +1,16 @@
 import { FC } from 'react';
+import { BsGithub } from 'react-icons/bs';
 import BaseTitle from '../common/BaseTitle';
 import BaseText from '../common/BaseText';
 import PillsContainer from '../PillsContainer';
 import BaseButton from '../common/BaseButton';
-import styles from './Projects.module.scss';
-import { TEXTS } from '../../pages/constants/strings';
+import { TEXTS } from '../../constants/strings';
 import {
   AFFILIATE_PILLS,
   BIRD_TEMPERATURE_PILLS,
   PETS_LOVE_PILLS,
 } from './constants/pills';
-import { BsGithub } from 'react-icons/bs';
+import styles from './Projects.module.scss';
 
 const Projects: FC = () => {
   return (
