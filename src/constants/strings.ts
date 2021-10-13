@@ -4,9 +4,7 @@ export const TEXTS = {
   CODE_REPOSITORY: 'Code',
   MOBILE_REPOSITORY: 'Mobile',
   TITLE_PAGE: `Hi! I'm Alex`,
-  MY_PRESENTATION: `As a developer I can generate solutions to problems on the front-end with good practices and a scalable software architecture. I am meticulous with my work, I like creating animations, and modeling pixel perfect apps.
-  I also have back-end knowledge working with non-relational databases, creating Apis with Node.js with Typescript. 
-  I like teamwork. Working as a team seems important to me because it's a way to build great things nimbly.
+  MY_PRESENTATION: `As a developer, I can generate solutions to problems on the front-end with good practices and a scalable software architecture. I am meticulous with my work, I like creating animations, and modeling pixel perfect apps. I also have back-end knowledge working with non-relational databases, creating Apis with Node.js and Typescript. I like teamwork because it is a way to build great things nimbly.
 `,
   PROJECTS: {
     TITLE: 'Projects',
@@ -16,26 +14,26 @@ export const TEXTS = {
     },
     AFFILIATE: {
       TITLE: 'Affiliate',
-      TEXT: 'Affiliates is an app created to make and manage surveys with roles and permissions that allow the interaction of the surveyed affiliates and the survey administrators.',
+      TEXT: 'Affiliate is an app created to make and manage surveys, with roles and permissions that allow the interaction of the surveyed affiliate and the survey administrators.',
     },
     NEST_BIRD_SENSOR: {
       TITLE: 'Bird nest temperature sensor',
-      TEXT: 'It is hardware created with an Arduino microcontroller, a sensor of temperature, lithium batteries and SD card for save data. The idea of this project is to measure temperature in bird nests for biology studies.',
+      TEXT: 'This hardware consists of an Arduino microcontroller, a sensor of temperature, lithium batteries and an SD card to save data. The idea of this project is to measure temperature in bird nests for biology studies.',
     },
   },
   JOB_EXPERIENCE: {
     TITLE: 'Work experience',
     PERSONAL_PAY: {
       TITLE: 'Personal Pay',
-      TEXT: 'It is a fintech developed in React native for easy access to users in Argentina. They can create accounts with virtual debit cards or physical cards, make transactions of money between accounts and features to stimulate financial education.',
+      TEXT: 'This fintech company created a digital wallet to facilitate banking access for users in Argentina, who can create accounts with virtual debit cards or physical cards, and carry out money transactions. This app also includes a feature to stimulate financial goals and encourage financial education.',
     },
     DIG_BANG: {
-      TITLE: 'Dig Bang',
-      TEXT: 'Dig bang is a software factory dedicated to developing software with an excellent methodology able to merge customers ideas with good software practices generating MVP very quickly.',
+      TITLE: 'DigBang',
+      TEXT: 'Digbang is a software factory dedicated to developing programmes with an excellent methodology, which merges customers’ ideas with good software practices, generating MVP very quickly.',
     },
     SIMTLIX: {
       TITLE: 'Simtlix',
-      TEXT: 'It is a software factory dedicated to generating different solutions. I am currently the front-end lead generating solutions for one of the largest companies in Latin America.',
+      TEXT: 'This company is a software factory dedicated to the creation of more simple alternatives for problem-solving. I am currently the front-end lead, responsible for the architecture of the app, generating solutions for Cencosud, one of the largest companies in Latin America.',
     },
   },
 };
