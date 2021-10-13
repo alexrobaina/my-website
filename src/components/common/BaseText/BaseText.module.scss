@@ -11,17 +11,21 @@
 
   &.bold {
     font-family: var(--main-font-bold);
+    font-weight: 600;
   }
 
   &.medium {
     font-family: var(--main-font-regular);
+    font-weight: 500;
   }
 
   &.regular {
     font-family: var(--main-font-medium);
+    font-weight: 400;
   }
 
   &.thin {
     font-family: var(--main-font-thin);
+    font-weight: 300;
   }
 }

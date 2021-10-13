@@ -1,11 +1,12 @@
 import { FC } from 'react';
+import BaseTitle from '../BaseTitle';
 import ThemeChange from './components/ThemeChange';
 import styles from './Header.module.scss';
 
 const Header: FC = () => {
   return (
     <div data-testid="header-app" className={styles.header}>
-      <div className={styles.name}>Alex</div>
+      <BaseTitle size={35} title="Alex" />
       <ThemeChange />
     </div>
   );

@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import c from 'classnames';
+import BaseText from '../BaseText';
 import styles from './BasePill.module.scss';
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
   backgroundColor: string;
 }
 
-const BaseText: FC<Props> = ({
+const BasePill: FC<Props> = ({
   text,
   size,
   testId,
@@ -36,9 +37,9 @@ const BaseText: FC<Props> = ({
       data-testid={`text-${testId}`}
       className={c(styles.pill)}
     >
-      {text}
+      <BaseText size={15} text={text} />
     </div>
   );
 };
 
-export default BaseText;
+export default BasePill;
