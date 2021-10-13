@@ -6,6 +6,6 @@
   flex-direction: column;
 
   @include media-breakpoint-between(xs, sm) {
-    padding: 0 32px 0 32px;
+    padding: 0 15px 0 15px;
   }
 }
