@@ -2,7 +2,7 @@ export const TEXTS = {
   FRONT_END: 'Front-end',
   BACK_END: 'Back-end',
   CODE_REPOSITORY: 'Code',
-  MOBILE_REPOSITORY: 'Movile',
+  MOBILE_REPOSITORY: 'Mobile',
   TITLE_PAGE: `Hi! I'm Alex`,
   MY_PRESENTATION: `As a developer I can generate solutions to problems on the front-end with good practices and a scalable software architecture. I am meticulous with my work, I like creating animations, and modeling pixel perfect apps.
   I also have back-end knowledge working with non-relational databases, creating Apis with Node.js with Typescript. 
@@ -24,7 +24,7 @@ export const TEXTS = {
     },
   },
   JOB_EXPERIENCE: {
-    TITLE: 'Job experience',
+    TITLE: 'Work experience',
     PERSONAL_PAY: {
       TITLE: 'Personal Pay',
       TEXT: 'It is a fintech developed in React native for easy access to users in Argentina. They can create accounts with virtual debit cards or physical cards, make transactions of money between accounts and features to stimulate financial education.',
