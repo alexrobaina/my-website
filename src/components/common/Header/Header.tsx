@@ -6,7 +6,7 @@ import styles from './Header.module.scss';
 const Header: FC = () => {
   return (
     <div data-testid="header-app" className={styles.header}>
-      <BaseTitle size={35} title="Alex" />
+      <BaseTitle size={32} title="Alex" />
       <ThemeChange />
     </div>
   );
