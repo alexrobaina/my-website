@@ -15,8 +15,8 @@ import styles from './Projects.module.scss';
 const Projects: FC = () => {
   return (
     <div data-testid="project">
-      <BaseTitle size={40} marginTop={40} title={TEXTS.PROJECTS.TITLE} />
-      <BaseTitle size={20} marginTop={40} title={TEXTS.PROJECTS.PETS_LOVE.TITLE} />
+      <BaseTitle size={38} marginTop={40} title={TEXTS.PROJECTS.TITLE} />
+      <BaseTitle size={20} marginTop={35} title={TEXTS.PROJECTS.PETS_LOVE.TITLE} />
       <BaseText medium marginTop={15} text={TEXTS.PROJECTS.PETS_LOVE.TEXT} />
       <div className={styles.linksContainer}>
         <BaseButton

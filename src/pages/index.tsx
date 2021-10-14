@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 import { motion } from 'framer-motion';
 import { HiCursorClick } from 'react-icons/hi';
 import BaseImage from '../components/common/BaseImage';
-import alexPortrait from '../assets/images/alexPortrait.jpg';
+import avatar from '../assets/images/avatar.jpg';
 import Layout from '../components/common/Layout';
 import BaseText from '../components/common/BaseText';
 import Projects from '../components/Projects';
@@ -16,6 +16,7 @@ import styles from '../styles/index.module.scss';
 
 const Home: NextPage = () => {
   const [showExperience, setShowExperience] = useState(false);
+
   return (
     <Layout testID="home">
       <>
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
           height={100}
           alt="portrait"
           marginTop={200}
-          src={alexPortrait}
+          src={avatar}
           handleEvent={() => setShowExperience(!showExperience)}
         />
         {!showExperience && (
