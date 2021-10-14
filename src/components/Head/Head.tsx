@@ -7,10 +7,7 @@ const Header: FC = () => {
       <title>Alex Robaina</title>
       <link rel="shortcut icon" href="../../../public/favicon.ico" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta
-        name="description"
-        content="Developer - Photographer - Mountain climber."
-      ></meta>
+      <meta name="description" content="Developer - Photographer - Mountain climber." />
       <meta property="og:title" content="🚀  Alex Robaina 🦄" />
       <meta
         property="og:image"
