@@ -1,10 +1,10 @@
 import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/react';
-import JobExperience from '../JobExperience';
+import WorkExperience from '../WorkExperience';
 
-describe('<JobExperience />', () => {
+describe('<WorkExperience />', () => {
   test('Should component must render correctly', () => {
-    const { getByTestId }: any = render(<JobExperience />);
+    const { getByTestId }: any = render(<WorkExperience />);
 
     expect(getByTestId('job-experience')).toBeDefined();
   });

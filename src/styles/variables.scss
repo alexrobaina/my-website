@@ -8,19 +8,18 @@
   transition-timing-function: linear;
 
   //fonts
-  --main-font-bold: 'Poppins', sans-serif;
-  --main-font-regular: 'Poppins', sans-serif;
-  --main-font-medium: 'Poppins', sans-serif;
-  --main-font-light: 'Poppins', sans-serif;
+  --main-font: 'Poppins', sans-serif;
 
-  /* Your default theme */
-  --background: #fff;
-  --foreground: #0c021a;
-
+  --base-text-color: var(--foreground);
   --ligth: #fff;
 }
 
 [data-theme='dark'] {
   --background: #0c021a;
   --foreground: #fff;
+}
+
+[data-theme='light'] {
+  --background: #fff;
+  --foreground: #0c021a;
 }

@@ -5,6 +5,7 @@ import styles from './BaseText.module.scss';
 interface Props {
   text?: string;
   size?: number;
+  color?: string;
   bold?: boolean;
   thin?: boolean;
   testId?: string;
@@ -26,6 +27,7 @@ const BaseText: FC<Props> = ({
   marginRight,
   thin = true,
   marginBottom,
+  color = '',
   bold = false,
   medium = false,
   center = false,
@@ -34,6 +36,7 @@ const BaseText: FC<Props> = ({
   return (
     <div
       style={{
+        color,
         marginTop,
         marginLeft,
         marginRight,

@@ -2,7 +2,7 @@
   font-size: 16px;
   line-height: 25px;
   letter-spacing: 2px;
-  font-family: var(--main-font-regular);
+  font-family: var(--main-font);
   color: var(--base-text-color);
 
   &.center {
@@ -10,22 +10,22 @@
   }
 
   &.bold {
-    font-family: var(--main-font-bold);
+    font-family: var(--main-font);
     font-weight: 600;
   }
 
   &.medium {
-    font-family: var(--main-font-regular);
+    font-family: var(--main-font);
     font-weight: 500;
   }
 
   &.regular {
-    font-family: var(--main-font-medium);
+    font-family: var(--main-font);
     font-weight: 400;
   }
 
   &.thin {
-    font-family: var(--main-font-thin);
+    font-family: var(--main-font);
     font-weight: 300;
   }
 }

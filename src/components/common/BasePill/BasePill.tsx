@@ -37,7 +37,7 @@ const BasePill: FC<Props> = ({
       data-testid={`text-${testId}`}
       className={c(styles.pill)}
     >
-      <BaseText size={15} text={text} />
+      <BaseText color="#fff" size={15} text={text} />
     </div>
   );
 };

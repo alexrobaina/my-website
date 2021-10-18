@@ -11,7 +11,7 @@ export const PILLS_SKILS = [
   { title: 'Sagas', backgroundColor: '#00600f' },
   { title: 'Mobx', backgroundColor: '#004272' },
   { title: 'MongoDB', backgroundColor: '#550E52' },
-  { title: 'Express', backgroundColor: '#006978' },
+  { title: 'Express', backgroundColor: '#0091AC' },
   { title: 'Redux Saga Test Plan', backgroundColor: '#800C01' },
 ];
 
@@ -45,7 +45,7 @@ export const AFFILIATE_PILLS = [
   { title: 'Redux', backgroundColor: '#f9a825' },
   { title: 'Mobx', backgroundColor: '#004272' },
   { title: 'MongoDB', backgroundColor: '#550E52' },
-  { title: 'Express', backgroundColor: '#006978' },
+  { title: 'Express', backgroundColor: '#0091AC' },
 ];
 
 export const BIRD_TEMPERATURE_PILLS = [
@@ -75,5 +75,5 @@ export const PETS_LOVE_PILLS = [
   { title: 'Sagas', backgroundColor: '#00600f' },
   { title: 'Mobx', backgroundColor: '#004272' },
   { title: 'MongoDB', backgroundColor: '#550E52' },
-  { title: 'Express', backgroundColor: '#006978' },
+  { title: 'Express', backgroundColor: '#0091AC' },
 ];
