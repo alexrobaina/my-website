@@ -8,7 +8,7 @@ import Layout from '../components/common/Layout';
 import BaseText from '../components/common/BaseText';
 import Projects from '../components/Projects';
 import Footer from '../components/common/Footer';
-import JobExperience from '../components/JobExperience';
+import WorkExperience from '../components/WorkExperience';
 import BaseTitle from '../components/common/BaseTitle';
 import { TEXTS } from '../constants/strings';
 import { VARIANTS_OPACITY } from '../constants/animation';
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
           >
             <BaseText thin marginTop={100} text={TEXTS.MY_PRESENTATION} />
             <Projects />
-            <JobExperience />
+            <WorkExperience />
             <Footer />
           </motion.div>
         )}

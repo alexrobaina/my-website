@@ -7,7 +7,7 @@ import styles from './ThemeChange.module.scss';
 const DARK = 'dark';
 const LIGHT = 'light';
 
-const Header: FC = () => {
+const ThemeChange: FC = () => {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
@@ -17,12 +17,12 @@ const Header: FC = () => {
   return (
     <>
       {theme === DARK && (
-        <div className={styles.changeTheme} onClick={() => setTheme(LIGHT)}>
+        <div className={styles.setLight} onClick={() => setTheme(LIGHT)}>
           <BsFillEmojiSunglassesFill size={22} />
         </div>
       )}
       {theme === LIGHT && (
-        <div className={styles.changeTheme} onClick={() => setTheme(DARK)}>
+        <div className={styles.setDark} onClick={() => setTheme(DARK)}>
           <FaRegMoon size={20} />
         </div>
       )}
@@ -30,4 +30,4 @@ const Header: FC = () => {
   );
 };
 
-export default Header;
+export default ThemeChange;
