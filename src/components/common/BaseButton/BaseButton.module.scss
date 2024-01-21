@@ -1,5 +1,4 @@
 @import '../../../styles/mixings.scss';
-
 .button {
   border: none;
   display: flex;
@@ -10,14 +9,21 @@
   cursor: pointer;
   transition: 0.3s;
   font-family: var(--main-font);
+  z-index: 999;
 }
 
 .buttonPrimary {
-  background-color: var(--button-background);
-  color: var(--button-text);
+  background-color: var(--button-background-primary);
+  box-shadow: 0 1px 0 0 #00000065;
+  color: var(--text-button-background-primary);
   width: 312px;
   height: 48px;
-  transition: 0.3s;
+  transition: 0.1s;
+  &:hover {
+    background-color: var(--button-background-primary-hover);
+    box-shadow: 0 1px 0 0 #00000065;
+    color: var(--text-button-background-primary-hover);
+  }
 }
 
 .isButtonLink {
@@ -30,7 +36,6 @@
   font-family: var(--main-font);
   background: none;
   border: none;
-
   &.iconContainer {
     display: flex;
     align-items: center;

@@ -1,0 +1,11 @@
+.binaryNumber {
+  font-size: 14px;
+  width: 150px;
+  display: flex;
+  font-weight: 600;
+  justify-content: flex-end;
+}
+
+.binarySequence {
+  display: flex;
+}

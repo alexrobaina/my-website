@@ -11,7 +11,7 @@ const ThemeChange: FC = () => {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    setTheme('dark');
+    setTheme(LIGHT);
   }, []);
 
   return (

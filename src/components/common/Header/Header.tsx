@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import BaseTitle from '../BaseTitle';
-import ThemeChange from './components/ThemeChange';
 import styles from './Header.module.scss';
+import ThemeChange from './components/ThemeChange';
 
 const Header: FC = () => {
   return (

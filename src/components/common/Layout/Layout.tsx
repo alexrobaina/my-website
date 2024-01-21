@@ -1,9 +1,8 @@
-import { FC, ReactElement } from 'react';
-import { motion } from 'framer-motion';
+import { FC, ReactElement, useEffect } from 'react';
 import Head from '../../Head';
-import Header from '../Header';
-import { VARIANTS_OPACITY } from '../../../constants/animation';
+
 import styles from './Layout.module.scss';
+import Header from '../Header';
 
 interface Props {
   testID: string;
@@ -11,21 +10,21 @@ interface Props {
 }
 
 const Layout: FC<Props> = ({ children, testID }) => {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, []);
+
   return (
     <>
+      <Header />
       <Head />
-      <motion.div
-        initial="hidden"
-        animate="visible"
-        variants={VARIANTS_OPACITY}
-        className={styles.layout}
-        transition={{ ease: 'easeOut', delay: 0.2 }}
-      >
-        <Header />
-        <div data-testid={`layout-${testID}`} className={styles.row}>
-          {children}
-        </div>
-      </motion.div>
+      <div data-testid={`layout-${testID}`} className={styles.row}>
+        {children}
+      </div>
     </>
   );
 };

@@ -17,6 +17,7 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "framer-motion": "^4.1.17",
+    "lottie-react": "^2.4.0",
     "next": "11.1.2",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
@@ -26,12 +27,12 @@
     "sass": "^1.42.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "@babel/preset-env": "^7.15.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/react": "17.0.27",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.2.4",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^18.2.1",

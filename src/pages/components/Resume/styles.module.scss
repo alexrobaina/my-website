@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.astronautContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.astronaut {
+  width: 250px;
+}
+
+.header {
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.backButtonContainer {
+  color: var(--foreground);
+  cursor: pointer;
+}

@@ -2,24 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
 :root {
   transition-duration: 0.3s;
   transition-timing-function: linear;
-
   //fonts
   --main-font: 'Poppins', sans-serif;
-
   --base-text-color: var(--foreground);
   --ligth: #fff;
 }
 
 [data-theme='dark'] {
-  --background: #0c021a;
-  --foreground: #fff;
+  background-color: #090a0f;
+  --background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  --foreground: #faf5ff;
+  --base-text-color: #faf5ff;
+  --text-button-background-primary: #000;
+  --button-background-primary: #f5f3ff;
+  --button-background-primary-hover: #8b5cf6;
+  --text-button-background-primary-hover: #2e1065;
+  --text-button-background-primary: #2e1065;
 }
 
 [data-theme='light'] {
-  --background: #fff;
-  --foreground: #0c021a;
+  background-color: #3b0764;
+  --base-text-color: #faf5ff;
+  --background: #090a0f;
+  --foreground: #f5f3ff;
+  --button-background-primary: #581c87;
+  --button-background-primary-hover: #7b29ba;
+  --text-button-background-primary-hover: #f5f3ff;
+  --text-button-background-primary: #f5f3ff;
 }

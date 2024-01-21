@@ -1,11 +1,16 @@
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+        gap: 40px;
+        width: 100%;
+    }
 }
 
 .link {
-  color: var(--base-text-color);
-  cursor: pointer;
+    color: var(--base-text-color);
+    cursor: pointer;
 }
